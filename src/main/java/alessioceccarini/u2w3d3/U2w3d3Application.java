@@ -42,6 +42,8 @@ public class U2w3d3Application {
 
 		UserData userData = new UserData();
 		userData.getData(adapter);
+
+		System.out.println("Nome Completo: " + userData.getNomeCompleto() + " Data nascita: " + info.getDataNascita());
 	}
 
 }
